@@ -1,6 +1,6 @@
 var cbInstance = Chargebee.init({
-  site: process.env.CB_SITE || 'easyredir-test',
-  publishableKey: process.env.CB_PUBLISHABLE_KEY || 'test_hAWaJwxhrYUPDR1QxzL6UsHS2jYzcuryQ'
+  site: 'easyredir-test',
+  publishableKey: 'test_hAWaJwxhrYUPDR1QxzL6UsHS2jYzcuryQ'
 })
 
 var options = {
