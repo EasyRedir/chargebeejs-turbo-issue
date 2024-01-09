@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  .ex2-fieldset(style="width:400px;")
+    label.ex2-field
+      span#card-combined.ex2-input
+
+  .goback(style="margin-top:10px;")
+    a(href='/') Back to Page 1

@@ -3,5 +3,10 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='https://js.chargebee.com/v2/chargebee.js')
+
+    //- Turbo
+    script(src='https://unpkg.com/@hotwired/turbo@8.0.0-beta.2/dist/turbo.es2017-umd.js')
   body
     block content
+    script(src='javascripts/cb.js')
